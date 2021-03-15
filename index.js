@@ -84,3 +84,13 @@ newdiv.setAttribute('title'  , 'hello bBy');
 // now we create text node
 
 var newdivText = document.createTextNode('KHUSHTER');
+
+//new li element and get it by class name and tag name
+
+ /*var ans=document.getElementsByTagName('li');
+ ans[3].textContent='hello';
+ ans[3].style.backgroundColor='yellow';*/
+
+ var clans=document.getElementsByClassName('itemx');
+ clans[0].innerText='Khushter';
+ clans[0].style.fontWeight='bold';
